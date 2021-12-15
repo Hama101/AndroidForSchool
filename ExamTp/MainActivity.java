@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         EditText xOption = findViewById(R.id.option);
         EditText xNa = findViewById(R.id.na);
 
-        String name = flname.getText().toString();
+        String name = xName.getText().toString();
         String email = xEmail.getText().toString();
         String option = xOption.getText().toString();
         String na = xNa.getText().toString();
